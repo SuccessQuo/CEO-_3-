@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS 심화_학습내용</title>
+    <style>
+
+    * {
+      color : purple;
+      text-decoration: underline;
+    }
+/* 선택자 *은 전체 적용을 의미 */
+
+    h2 { color : navy;}
+    h2, h3 {background-color: yellow;}
+    h1, h2, h3, p {text-decoration: overline;}
+    div > p {background-color: lightblue;}
+
+/* div p 는 div 내의 모든 p에 대한 스타일 적용을 의미하고
+   div > p 는 div 바로 밑에 잇는 지식에게만 스타일을 적용하라는 것, 자손에게는 적용 안됨. */
+
+    </style>
+  </head>
+  <body>
+    <h1>그룹 선택자를 이용한 선택</h1>
+    <h2>제목 1입니다.</h2>
+    <h3>제목 2입니다.</h3>
+    <p>여기는 단락입니다.</p>
+
+  <div>
+    <p>div 태그 내부의 p 태그입니다</p>
+    <p>div 태그 내부의 p 태그입니다</p>
+    <p>div 태그 내부의 p 태그입니다</p>
+    <span>
+      <p>span 내부의 p태그</p>
+  </span>
+
+  </div>
+
+
+  </body>
+</html>

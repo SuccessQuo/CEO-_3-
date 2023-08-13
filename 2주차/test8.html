@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>json 구조 이해</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(document).ready(()=>{
+     let chanJson = {
+       name : "최찬규",
+       age : 31,
+       height: 168,
+       weight: 64,
+       email: "choikyu309@naver.com",
+       bloodType : "O",
+     };
+
+    let userList = [
+      {name:"이한별",age:33,bloodType:"O"},
+      {name:"김웅규",age:31,bloodType:"A"},
+      {name:"황호조",age:35,bloodType:"AB"},
+      {name:"손흥민",age:30,bloodType:"O"},
+      {name:"김민재",age:328,bloodType:"A"},
+      {name:"케인",age:32,bloodType:"B"}
+    ];
+
+    for(i=0;i<6; i++){
+      $("#userList").append("<div>"+userList[i]["name"]+userList[i]["age"]+userList[i]["bloodType"]+"</div>");
+    }
+  });
+
+
+    </script>
+
+
+    <style>
+
+    	</style>
+    </head>
+    <body>
+     <div id="userList">
+     </div>
+
+    </body>
+    </html>

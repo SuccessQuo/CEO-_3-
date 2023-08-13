@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>2일차 추가과제_레이아웃 설정</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+  $(document).ready(function() {
+    // jQuery 코드 작성 위치
+
+    // div 요소 스타일 변경
+    $("div").css({
+      "border": "2px solid",
+      "color": "red'",
+      "overflow": "auto"
+    });
+
+    // .box 클래스 스타일 변경
+    $('.box').css({
+      'background-color': 'aqua',
+      'width': '150px',
+      'height': '150px'
+    });
+
+    // .left 클래스 스타일 변경
+    $('.left').css('float', 'left');
+
+    // .right 클래스 스타일 변경
+    $('.right').css('float', 'right');
+
+    // .left2 클래스 스타일 변경
+    $('.left2').css('float', 'left');
+
+    // .right2 클래스 스타일 변경
+    $('.right2').css('float', 'right');
+
+    // section 요소 스타일 변경
+    $('section').css({
+      'clear': 'both',
+      'width': '150px',
+      'height': '150px',
+      'margin-left': '850px',
+      'margin-top': '300px',
+      'margin-bottom': '260px',
+      'background-color': 'aqua'
+    });
+  });
+</script>
+    </head>
+    <body>
+      <div>
+    		<header>
+          <p class="box left"></p>
+          <p class="box right"></p>
+    		</header>
+<br/>
+    		<section></section>
+    		<footer>
+          <p class="box left2"></p>
+          <p class="box right2"></p>
+    		</footer>
+      </div>
+
+    </body>
+    </html>

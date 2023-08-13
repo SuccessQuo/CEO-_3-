@@ -1,0 +1,18 @@
+C:\Users\최찬규\Desktop\CEO 부트캠프_3기\Git hub samples\ceocampcode>git add .
+
+C:\Users\최찬규\Desktop\CEO 부트캠프_3기\Git hub samples\ceocampcode>git commit -m "업데이트 내용"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '최찬규@DESKTOP-LNMVSMF.(none)')
+
+C:\Users\최찬규\Desktop\CEO 부트캠프_3기\Git hub samples\ceocampcode>
